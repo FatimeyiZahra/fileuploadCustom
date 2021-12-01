@@ -1,34 +1,34 @@
-.folder {
+#select-file-section .folder {
   margin-top: 10px;
 }
-.file-manager-item {
+#select-file-section .file-manager-item {
   cursor: pointer;
 }
-.file-manager-item .file-logo-wrapper {
+#select-file-section .file-manager-item .file-logo-wrapper {
   padding: 1rem;
   height: 7.5rem;
   background-color: #f8f8f8;
 }
-.card-img,
+#select-file-section  .card-img,
 .card-img-top,
 .card-img-bottom {
   width: 100%;
 }
-.float-end {
+#select-file-section .float-end {
   float: right !important;
 }
-.file-manager-item .delete-icon {
+#select-file-section .file-manager-item .delete-icon {
   opacity: 0;
 }
-.file-manager-item:hover .delete-icon {
+#select-file-section .file-manager-item:hover .delete-icon {
   opacity: 1;
 }
-.file-manager-item .form-check {
+#select-file-section .file-manager-item .form-check {
   position: absolute;
   top: 1rem;
   left: 1rem;
 }
-.form-check {
+#select-file-section .form-check {
   display: block;
   min-height: 1.45rem;
   padding-left: 1.785rem;
@@ -40,39 +40,39 @@
   box-sizing: border-box;
 }
 
-.form-check-input[type="checkbox"] {
+#select-file-section .form-check-input[type="checkbox"] {
   border-radius: 3px;
 }
-.form-check .form-check-input {
+#select-file-section .form-check .form-check-input {
   float: left;
   margin-left: -1.785rem;
 }
 
-.file-manager-item .form-check-input:not(:checked) {
+#select-file-section .file-manager-item .form-check-input:not(:checked) {
   background-color: transparent;
   opacity: 0;
 }
-.file-manager-item .form-check-input:not(:checked) {
+#select-file-section .file-manager-item .form-check-input:not(:checked) {
   background-color: transparent;
   opacity: 0;
 }
-.delete-submit{
+#select-file-section .delete-submit{
 	display: flex;
 }
-.delete-selected {
+#select-file-section .delete-selected {
   opacity: 0;
 }
-.delete-selected.show {
+#select-file-section .delete-selected.show {
   opacity: 1;
 }
-.form-check-input[type="checkbox"] {
+#select-file-section .form-check-input[type="checkbox"] {
   border-radius: 3px;
 }
-.form-check .form-check-input {
+#select-file-section .form-check .form-check-input {
   float: left;
   margin-left: -1.785rem;
 }
-.form-check-input {
+#select-file-section .form-check-input {
   width: 1.285rem;
   height: 1.285rem;
   margin-top: 0.0825rem;
@@ -93,24 +93,50 @@
   border: 0 solid rgba(34, 41, 47, 0.125);
   border-radius: 0.428rem;
 }
-.file-manager-item .form-check-input:checked {
+#select-file-section .file-manager-item .form-check-input:checked {
   background-color: #7367f0;
   border-color: #7367f0;
 }
-.file-manager-item .form-check-input[type="checkbox"] {
+#select-file-section .file-manager-item .form-check-input[type="checkbox"] {
   border-radius: 3px;
 }
-.file-manager-item .form-check-input:checked[type="checkbox"] {
+#select-file-section .file-manager-item .form-check-input:checked[type="checkbox"] {
   opacity: 1;
   background-image: url("data:image/svg+xml;charset=utf8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9.5 7.5'%3e%3cpolyline points='0.75 4.35 4.18 6.75 8.75 0.75' style='fill:none;stroke:%23fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px'/%3e%3c/svg%3e");
 }
 
-.file-manager-item
+#select-file-section .file-manager-item
   .form-check:not(.form-switch)
   .form-check-input[type="checkbox"]:checked {
   background-size: 65%;
 }
-.file-manager-item .form-check-input:focus {
+#select-file-section .file-manager-item .form-check-input:focus {
   border-color: #7367f0;
   outline: 0;
+}
+#select-file-section .image img{
+  height: 100%;
+  width: 100%;
+}
+#select-file-section .solid-border{
+  border: 1px solid #ccc;
+  border-radius: 16px;
+}
+.p-23{
+  padding: 23px;
+}
+.m-b-20{
+  margin-bottom: 20px;
+}
+#select-file-section .upload-file{
+  display: none;
+}
+#select-file-section .upload-file.show{
+  display: block;
+}
+#select-file-section .card-img-top .brand-icon{
+  font-size: 23px;
+}
+#select-file-section .header{
+  color: #5e5873;
 }
