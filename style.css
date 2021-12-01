@@ -17,13 +17,13 @@
 #select-file-section .float-end {
   float: right !important;
 }
-#select-file-section .file-manager-item .delete-icon {
+#select-file-section .file-manager-item .plus-icon {
   opacity: 0;
 }
-#select-file-section .file-manager-item:hover .delete-icon {
+#select-file-section .file-manager-item:hover .plus-icon {
   opacity: 1;
 }
-#select-file-section .file-manager-item .form-check {
+#select-file-section  .form-check {
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -33,6 +33,9 @@
   min-height: 1.45rem;
   padding-left: 1.785rem;
   margin-bottom: 0;
+}
+#select-file-section .card-body {
+  padding: 0.6rem !important;
 }
 *,
 *::before,
@@ -48,11 +51,11 @@
   margin-left: -1.785rem;
 }
 
-#select-file-section .file-manager-item .form-check-input:not(:checked) {
+#select-file-section  .form-check-input:not(:checked) {
   background-color: transparent;
   opacity: 0;
 }
-#select-file-section .file-manager-item .form-check-input:not(:checked) {
+#select-file-section .form-check-input:not(:checked) {
   background-color: transparent;
   opacity: 0;
 }
@@ -93,24 +96,24 @@
   border: 0 solid rgba(34, 41, 47, 0.125);
   border-radius: 0.428rem;
 }
-#select-file-section .file-manager-item .form-check-input:checked {
+#select-file-section .form-check-input:checked {
   background-color: #7367f0;
   border-color: #7367f0;
 }
-#select-file-section .file-manager-item .form-check-input[type="checkbox"] {
+#select-file-section .form-check-input[type="checkbox"] {
   border-radius: 3px;
 }
-#select-file-section .file-manager-item .form-check-input:checked[type="checkbox"] {
+#select-file-section .form-check-input:checked[type="checkbox"] {
   opacity: 1;
   background-image: url("data:image/svg+xml;charset=utf8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9.5 7.5'%3e%3cpolyline points='0.75 4.35 4.18 6.75 8.75 0.75' style='fill:none;stroke:%23fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px'/%3e%3c/svg%3e");
 }
 
-#select-file-section .file-manager-item
+#select-file-section 
   .form-check:not(.form-switch)
   .form-check-input[type="checkbox"]:checked {
   background-size: 65%;
 }
-#select-file-section .file-manager-item .form-check-input:focus {
+#select-file-section .form-check-input:focus {
   border-color: #7367f0;
   outline: 0;
 }
@@ -139,4 +142,54 @@
 }
 #select-file-section .header{
   color: #5e5873;
+}
+.text-red{
+  color: red;
+}
+.text-blue{
+  color: #31708f;
+}
+.text-green{
+  color: green;
+}
+.background-red{
+  background-color: #f95858;
+  color: whitesmoke;
+}
+.background-blue{
+  background-color: #2da9e9;
+  color: whitesmoke;
+}
+.background-green{
+  background-color: #0ec8a2;
+  color: whitesmoke;
+}
+#select-file-section .file-man-box {
+  padding: 20px;
+  border: 1px solid #e3eaef;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 20px
+}
+
+#select-file-section .file-man-box .file-img-box {
+  line-height: 120px;
+  text-align: center
+}
+
+#select-file-section .file-man-box .file-img-box img {
+  height: 64px
+}
+
+#select-file-section .file-man-box .file-man-title {
+  padding-right: 25px
+}
+
+#select-file-section .file-man-box:hover {
+  -webkit-box-shadow: 0 0 24px 0 rgba(0, 0, 0, .06), 0 1px 0 0 rgba(0, 0, 0, .02);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, .06), 0 1px 0 0 rgba(0, 0, 0, .02)
+}
+
+#select-file-section .file-man-box:hover .file-close {
+  visibility: visible
 }
